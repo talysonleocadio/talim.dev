@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdoc_talim_blog=self.webpackChunkdoc_talim_blog||[]).push([[535],{5641:function(l){l.exports=JSON.parse('{"title":"Todos os posts","items":[{"title":"Welcome","permalink":"/blog/welcome"},{"title":"Hello","permalink":"/blog/hello-world"},{"title":"Hola","permalink":"/blog/hola"}]}')}}]);
