@@ -7,6 +7,7 @@ module.exports = {
   tagline: '',
   url: 'https://talimblog.netlify.app',
   baseUrl: '/blog/',
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
