@@ -6,7 +6,7 @@ module.exports = {
   title: 'Cantim do Talim',
   tagline: '',
   url: 'https://talim.dev',
-  baseUrl: '/blog/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
