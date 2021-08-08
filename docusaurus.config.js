@@ -6,7 +6,7 @@ module.exports = {
   title: 'Cantim do Talim',
   tagline: '',
   url: 'https://talim.dev',
-  baseUrl: '/',
+  baseUrl: '/blog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
@@ -22,7 +22,7 @@ module.exports = {
     },
     navbar: {
       items: [
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: '/', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/talysonleocadio',
           label: 'GitHub',
@@ -43,7 +43,7 @@ module.exports = {
         docs: false,
         blog: {
           path: './blog',
-          routeBasePath: '/blog',
+          routeBasePath: '/',
           showReadingTime: true,
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'Todos os posts'
