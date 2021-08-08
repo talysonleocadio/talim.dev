@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Cantim do Talim',
   tagline: '',
-  url: 'https://talim.dev',
+  url: 'https://talimblog.netlify.app',
   baseUrl: '/blog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
