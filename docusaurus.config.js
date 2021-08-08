@@ -22,7 +22,7 @@ module.exports = {
     },
     navbar: {
       items: [
-        {to: '/', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/talysonleocadio',
           label: 'GitHub',
@@ -43,7 +43,7 @@ module.exports = {
         docs: false,
         blog: {
           path: './blog',
-          routeBasePath: '/',
+          routeBasePath: '/blog',
           showReadingTime: true,
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'Todos os posts'
