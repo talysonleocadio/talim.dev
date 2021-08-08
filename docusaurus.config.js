@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: '',
+  title: 'Cantim do Talim',
   tagline: '',
   url: 'https://talim.dev',
   baseUrl: '/',
@@ -44,8 +44,6 @@ module.exports = {
         blog: {
           path: './blog',
           routeBasePath: '/',
-          blogTitle: 'Blog',
-          blogDescription: 'Blog',
           showReadingTime: true,
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'Todos os posts'
