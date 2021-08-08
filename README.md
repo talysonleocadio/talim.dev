@@ -1,33 +1,29 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9f8a7115-9100-427e-ab7c-f2585992b130/deploy-status)](https://app.netlify.com/sites/talimblog/deploys)
+
 # Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Este projeto é construído com [Docusaurus 2](https://docusaurus.io/).
 
-## Installation
+## Instalação
+
+Para instalar as dependências use o comando abaixo:
 
 ```console
 yarn install
 ```
 
-## Local Development
+## Desenvolvimento local
+
+O comando abaixo inicializa um servidor de desenvolvimento e abre o projeto em uma aba do seu navegador padrão. Grande parte das mudanças são refletidas ao-vivo sem a necessidade de reiniciar o servidor.
 
 ```console
 yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
 ## Build
+
+O comando abaixo gero o conteúdo estático que será servido pelo seu serviço de preferência (Netlify, Vercel e etc).
 
 ```console
 yarn build
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
