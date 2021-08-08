@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdoc_talim_blog=self.webpackChunkdoc_talim_blog||[]).push([[453],{8605:function(l){l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/blog/tags/hello"}')}}]);
